@@ -4,7 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 header a {
     background-color: #1848A1;
@@ -66,6 +69,24 @@ header {
     header video {
       display: none;
     }
+  }
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #1848A1;
+    color: white;
+    font-size: 30px;
+  }
+
+  .aboutmetext {
+    padding: 10px;
+    background-color: #212529;
+    color: white;
+  }
+
+  .interpersonal p {
+    padding-top: 10px;
   }
 
 
